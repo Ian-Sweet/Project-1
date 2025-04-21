@@ -45,14 +45,12 @@ An example use case: a SOC analyst could deploy a honeypot that logs all scans t
 
 ## File Structure
 
-```
-packet-crafting-lab/
-├── spoofopen.py           # Honeypot simulation script (deceptive open ports)
-├── crafted_packets.py     # Scapy-generated packet creation
-├── packet_sniffer.py      # TCP packet sniffer with Scapy
-├── screenshots/           # Visual outputs from the lab
-└── README.md              # Project summary (this file)
-```
+
+# Honeypot simulation script (deceptive open ports)
+# Scapy-generated packet creation
+# TCP packet sniffer with Scapy
+# Visual outputs from the lab
+# Project summary ([SweetIan_NDG14–Packet Crafting_Module5_04-18-2025.pdf](https://github.com/user-attachments/files/19827682/SweetIan_NDG14.Packet.Crafting_Module5_04-18-2025.pdf)
 
 ## Conclusion
 
