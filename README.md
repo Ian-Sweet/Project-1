@@ -35,5 +35,32 @@ An example use case: a SOC analyst could deploy a honeypot that logs all scans t
 - Basic threat deception techniques with honeypots
 - TCP flag analysis and packet sniffing
 
+## Tools & Technologies
+
+- Python 3
+- Scapy
+- pfSense Firewall
+- Wireshark (optional analysis)
+- Custom honeypot script (`spoofopen.py`)
+
 ## File Structure
 
+```
+packet-crafting-lab/
+├── spoofopen.py           # Honeypot simulation script (deceptive open ports)
+├── crafted_packets.py     # Scapy-generated packet creation
+├── packet_sniffer.py      # TCP packet sniffer with Scapy
+├── screenshots/           # Visual outputs from the lab
+└── README.md              # Project summary (this file)
+```
+
+## Conclusion
+
+This lab provided valuable hands-on experience with custom packet generation, real-time traffic analysis, and deceptive network defenses. These are key skills for blue team defenders and SOC analysts looking to proactively understand and respond to network-based threats.
+
+By learning to build and analyze raw packets, and simulate attacker behavior through honeypots, I’ve built a deeper understanding of how network threats operate — and how to counter them.
+
+## Contact
+
+**Ian Sweet**  
+Email: iansweet315@u.boisestate.edu
